@@ -1,27 +1,27 @@
 ﻿  SimplexMethod.cpp
 C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(39,13): warning C4101: b: неиспользованная локальная переменная
-C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(95,23): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(104,23): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(122,23): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(126,23): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(132,23): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(136,23): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(155,23): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(173,23): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(238,23): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(239,27): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(237,12): warning C4101: min_2: неиспользованная локальная переменная
-C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(249,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(83,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(92,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(110,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(114,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(120,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(124,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(143,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(160,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(224,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(225,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(223,12): warning C4101: min_2: неиспользованная локальная переменная
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(235,23): warning C4018: <: несоответствие типов со знаком и без знака
 C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\Matrix.h(150,23): warning C4018: <: несоответствие типов со знаком и без знака
 C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\Matrix.h(148): message : во время компиляции функции-члена класс шаблон "Matrix<double> Matrix<double>::Samp(std::vector<int,std::allocator<int>>,std::vector<int,std::allocator<int>>)"
-C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(120): message : выполняется компиляция ссылки на экземпляр шаблон функции "Matrix<double> Matrix<double>::Samp(std::vector<int,std::allocator<int>>,std::vector<int,std::allocator<int>>)"
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(108): message : выполняется компиляция ссылки на экземпляр шаблон функции "Matrix<double> Matrix<double>::Samp(std::vector<int,std::allocator<int>>,std::vector<int,std::allocator<int>>)"
 C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(14): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Matrix<double>"
 C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\Matrix.h(151,27): warning C4018: <: несоответствие типов со знаком и без знака
 C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\Matrix.h(19,23): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(120): message : выполняется компиляция ссылки на экземпляр шаблон функции "Matrix<double> operator *<T>(Matrix<T>,Matrix<T>)"
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(108): message : выполняется компиляция ссылки на экземпляр шаблон функции "Matrix<double> operator *<T>(Matrix<T>,Matrix<T>)"
           with
           [
               T=double
           ]
-C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(109): warning C4715: search: значение возвращается не при всех путях выполнения
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.h(97): warning C4715: search: значение возвращается не при всех путях выполнения
   SimplexMethod.vcxproj -> C:\Users\Ilya\source\repos\SimplexMethod\Debug\SimplexMethod.exe

@@ -39,26 +39,14 @@ void SimplexMethod::run() {
     bool a, b, c;
     int iter = 0;
     while (true) {
-        cout << endl;
-        cout << " iter : " << iter << endl;
-        cout << "NK_ind : ";
-        print(Nk_ind);
-        cout << "LK_ind : ";
-        print(Lk_ind);
-        cout << "A : " << endl;
-        print(A);
         a = calcD_1();
-        cout << "one : " << a << endl;
         if (a == false) {
             cout << "solve" << endl;;
             print(referenceVector);
             break;
         }
         c = calcD_2();
-        cout << "two : " << c << endl;
-        print(referenceVector);
         set_new_B();
-        print(B_Nk);
         iter++;
     }
 }
@@ -160,7 +148,6 @@ bool SimplexMethod::calcD_2() {
         return false;
     }
     double th = theta(referenceVector, u_n);
-    cout << "-- -- th -- --  " << th << endl;
     referenceVector = referenceVector - u_n.multiply(th);
     return true;
 }
@@ -232,7 +219,6 @@ void SimplexMethod::add() {
     B_Nk = A.Samp(Nk_ind, M_ind);
 }
 double SimplexMethod::theta(Matrix<double> a, Matrix<double>b) {
-    cout << endl;
     double min_ = INT_MAX;
     double min_2;
     for (int i = 0; i < Nk_ind.size(); i++) {
