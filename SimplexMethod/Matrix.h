@@ -11,7 +11,7 @@ const double MOD = 10000000000000000000;
 */
 template<typename T>
 class Matrix;
-template<class T> Matrix<T> operator*(Matrix<T> one, Matrix<T> two);
+template<typename T> Matrix<T> operator*(Matrix<T> one, Matrix<T> two);
 template<typename T>Matrix<T> operator*(Matrix<T> one, const double val);
 template<typename T> Matrix<T> operator-(Matrix<T> one, Matrix<T> two);
 template<typename T> Matrix<T> operator+(Matrix<T> one, Matrix<T> two);

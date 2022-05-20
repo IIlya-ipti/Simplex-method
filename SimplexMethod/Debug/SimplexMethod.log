@@ -15,4 +15,21 @@ C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\Matrix.cpp(5): message : 
           [
               T=double
           ]
+  SimplexMethod.cpp
+  SimplexMethod_.cpp
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.cpp(5,13): warning C4101: b: неиспользованная локальная переменная
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.cpp(48,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.cpp(57,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.cpp(75,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.cpp(79,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.cpp(85,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.cpp(89,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.cpp(108,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.cpp(132,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.cpp(196,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.cpp(197,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.cpp(195,12): warning C4101: min_2: неиспользованная локальная переменная
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.cpp(207,23): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+C:\Users\Ilya\source\repos\SimplexMethod\SimplexMethod\SimplexMethod_.cpp(62): warning C4715: search: значение возвращается не при всех путях выполнения
   SimplexMethod.vcxproj -> C:\Users\Ilya\source\repos\SimplexMethod\Debug\SimplexMethod.exe
