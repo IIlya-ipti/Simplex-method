@@ -141,10 +141,13 @@
   <ItemGroup>
     <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="SimplexMethod.cpp" />
+    <ClCompile Include="SimplexMethod_.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="includes.h" />
     <ClInclude Include="Matrix.h" />
     <ClInclude Include="SimplexMethod.h" />
+    <ClInclude Include="SimplexMethod_.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

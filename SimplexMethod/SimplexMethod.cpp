@@ -1,38 +1,38 @@
 ﻿
 #include"SimplexMethod_.h"
-#include<iostream>
-#include<vector>
-using namespace std;
+#include "Matrix.h"
 
-int M = 4;
+int M = 3;
 int N = 7;
-const vector<double> A{
-         20,40,25,1,0,0,0,
-         25,50,0,0,1,0,0,
-         30,20,40,0,0,1,0,
-         10,10,15,0,0,0,1
+const std::vector<double> A{
+         -1,1,0,0,1,0,0,
+         0,0,1,-1,0,1,0,
+         -2,2,-3,3,0,0,1
+        
 };
-const vector<double> b{
-    2000,
-    5000,
-    4000,
-    3000
+const std::vector<double> b{
+    0.4,
+    5,
+    0
 };
-const vector<double> c{
-    30,
-    15,
-    40,
-    0,
+const std::vector<double> c{
+    10,
+   -10,
+    2,
+    -2,
     0,
     0,
     0
 };
+
+
 
 int main()
 {
 
     SimplexMethod simp = SimplexMethod(A,b,c,M,N);
     simp.run();
+
     return 0;
 }
 
